@@ -1,0 +1,107 @@
+ .Task_Dashboard {
+    /* text-align: center; */
+    /* background: #ddd; */
+    height: 100vh;
+  }
+  .Task_Dashboard .navbar-menu{
+    display: inline;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .Task_Dashboard .navbar-menu .down{
+    /* display: inline; */
+    /* text-decoration: none; */
+    /* padding: 10px 20px; */
+    vertical-align: text-top;
+    cursor: pointer;
+  }
+  .Task_Dashboard a:-webkit-any-link{
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .Task_Dashboard .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .Task_Dashboard .App-header {
+    background-color: #222;
+    /* height: 150px; */
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .Task_Dashboard .App-title {
+    font-size: 1.5em;
+  }
+  
+  .Task_Dashboard.Task-intro {
+    /* font-size: large; */
+    width: 60%;
+    margin: 20px auto;
+    
+  }
+  .Task_Dashboard .Task-intro .search-section{
+    display: inline;
+    margin-top: 20px;
+  }
+  .Task_Dashboard .Task-intro .custom-input{
+    width: 60%;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+  }
+  .Task_Dashboard .Task-intro .plus-icon{
+    padding: 5px 10px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #68A02C;
+    float: right;
+    background: #68A02C;
+  }
+  .Task_Dashboard .Task-intro .text{
+    padding: 6px;
+    margin-left: 20px;
+    float: right;
+  }
+  .Task_Dashboard .Task-intro .table-section{
+    /* border: 1px solid #000; */
+    margin: 20px 0;
+    padding: 10px;
+    background: #fff;
+  }
+  .Task_Dashboard .Task-intro .table{
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #000; */
+    /* padding: 10px; */
+  }
+  .Task_Dashboard .Task-intro .table tr{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+    margin: 0 10px;
+  }
+  .Task_Dashboard .Task-intro .table tbody tr:hover {
+    background: #F0b2b7;
+  }
+  .App .Task-intro .table th{
+    padding: 10px 0;
+  }
+  .Task_Dashboard .Task-intro .table td{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #2a2a2a;
+  }
+  .Task_Dashboard .Task-intro .btn{
+    text-align: right;
+  }
+  
+
+  

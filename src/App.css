@@ -1,0 +1,144 @@
+.App {
+  /* text-align: center; */
+  /* background: #ddd; */
+  height: 100vh;
+}
+.App .navbar-menu{
+  display: inline;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.App .App-header .active{
+  color: #68A02C;
+  border-bottom: 2px solid #68A02C;
+}
+.App .navbar-menu .down{
+  vertical-align: text-top;
+  cursor: pointer;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+.App-header {
+  background-color: #222;
+  /* height: 150px; */
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+ .App-intro {
+  /* font-size: large; */
+  /* width: 70%; */
+  margin: 20px;
+  display: flex;
+  
+}
+.App .App-intro .right-tab{
+  width: 20%;
+  border-right: 1px solid #ddd;
+}
+.App .App-intro .left-section{
+  width: 80%;
+  margin: 50px;
+}
+.App .App-intro .tab-menu{
+  background: #ddd;
+  color: #222;
+  margin: 1px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.App .App-intro .Active{
+  background: #68A02C;
+  color: #fff;
+  margin: 1px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.App .App-intro .search-section{
+  display: inline;
+  /* width: 70%; */
+  margin: 20px;
+}
+.App .App-intro .filter-icon{
+  vertical-align: middle;
+}
+.App .App-intro .custom-input{
+  width: 60%;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+}
+.App .App-intro .plus-icon{
+  padding: 4px 10px;
+  height: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #68A02C;
+  float: right;
+  background: #68A02C;
+}
+.App .App-intro .select{
+  padding: 5px 15px;
+  height: 30px;
+  width: 20%;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #68A02C;
+  float: right;
+  background: #68A02C;
+}
+.App .App-intro .text{
+  padding: 6px;
+  margin-left: 20px;
+  float: right;
+}
+.App .App-intro .table-section{
+  /* border: 1px solid #000; */
+  margin: 20px 0;
+  padding: 10px;
+  background: #fff;
+}
+.App .App-intro .table{
+  margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 1px solid #000; */
+  /* padding: 10px; */
+}
+.App .App-intro .table tr{
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+  margin: 0 10px;
+}
+.App .App-intro .table tbody tr:hover {
+  background: #F0b2b7;
+}
+.App .App-intro .table th{
+  padding: 10px 0;
+}
+.App .App-intro .table td{
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.App .App-intro .btn{
+  text-align: right;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
